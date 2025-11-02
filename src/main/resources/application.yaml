@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: SPRING-BOOT-SHOP
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot_shop
+    username: root
+    password: 123456
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret-key: +H0WZ2cfLZ/6E8OIG/OI9JB9j2ZUpMKVSeWEc0dRCRsT+NqVdBZbWyrMLzsgg1LjPdcb62eiRZYm0AC5j59Ie5PLCYjwIFqBwzuCPRVvnXI=
